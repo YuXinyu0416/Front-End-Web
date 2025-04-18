@@ -1,0 +1,485 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* .clearfix {
+    IE6、7 专有
+    *zoom: 1; */
+
+body {
+    background-color: #f3f5f7;
+}
+
+.center {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 42px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav li {
+    float: left;
+    margin: 0 15px;
+
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 0 10px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 42px;
+    color: #050505;
+    text-decoration: none;
+}
+
+.nav li a:visited {
+    color: #050505;
+}
+
+.nav li a:hover {
+    color: #00a4ff;
+    border-bottom: 2px #00a4ff solid;
+}
+
+.search {
+    float: left;
+    margin-left: 50px;
+    width: 412px;
+    height: 42px;
+}
+
+.search input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    font-size: 14px;
+    color: #bfbfbf;
+    padding-left: 15px;
+    border: #00a4ff 1px solid;
+    border-right: 0;
+
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-image: url(images/search.png);
+}
+
+.user {
+    float: left;
+    margin-left: 31px;
+}
+
+.user img {
+    float: left;
+    width: 33px;
+    height: 33px;
+    padding-top: 4.5px;
+    border-radius: 50%;
+}
+
+.user p {
+    float: left;
+    font-size: 14px;
+    line-height: 42px;
+    padding-left: 4px;
+    color: #666;
+}
+
+.banner {
+    height: 421px;
+    background-color: #1c036c;
+}
+
+.banner .center {
+    overflow: hidden;
+    height: 421px;
+    background: url(images/banner2.png) no-repeat top center;
+}
+
+.banner .center .trans {
+    float: left;
+    overflow: hidden;
+    width: 190px;
+    height: 421px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.banner .center .trans li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner .first {
+    padding-top: 13px;
+}
+
+.banner .center .trans li a {
+    display: block;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.banner .center .trans li a:visited {
+    color: #fff;
+}
+
+.banner .center .trans li a:hover {
+    color: #00b4ff;
+}
+
+.trans span {
+    float: right;
+}
+
+.myclass {
+    float: right;
+    margin-top: 50px;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.myclass h3 {
+    width: 228px;
+    height: 48px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+    background-color: #9bceea;
+}
+
+.myclass .button {
+    display: block;
+    width: 198px;
+    height: 39px;
+    border: #00a4ff 1px solid;
+    margin: 5px 13px 10px;
+    font-size: 16px;
+    color: #00a4ff;
+    line-height: 39px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.myclass ul {
+    padding-top: 15px;
+}
+
+.myclass ul li {
+    padding-left: 20px;
+}
+
+.myclass ul .f {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.myclass ul .s {
+    font-size: 14px;
+    color: #4e4e4e;
+}
+
+.myclass ul .l {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.myclass ul li a {
+    display: block;
+    width: 190px;
+    height: 60px;
+    align-content: center;
+    border-bottom: #a5a5a560 1px solid;
+}
+
+.myclass ul li .weight:hover {
+    color: #00a4ff;
+}
+
+.banner2 {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 8px;
+    box-shadow: rgba(0, 0, 0, .3) 1px 5px 5px 1px;
+}
+
+.banner2 .change {
+    float: right;
+    margin-right: 25px;
+    font-size: 14px;
+    color: #00a4ff;
+    line-height: 60px;
+
+}
+
+.banner2 ul {
+    float: left;
+    height: 60px;
+}
+
+.banner2 ul li {
+    float: left;
+
+}
+
+.banner2 ul li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #050505;
+    padding: 0 30px;
+    border-right: #a5a5a560 1px solid;
+}
+
+.banner2 ul li .l {
+    border-right: 0;
+}
+
+.banner2 ul li .f {
+    color: #00a4ff;
+    font-weight: 700;
+}
+
+.banner2 ul li a:hover {
+    color: #00a4ff;
+}
+
+.rolling {
+    /* float: left; */
+    position: fixed;
+    width: 115px;
+    /* height: 285px; */
+    background-color: #fff;
+    margin-right: 10px;
+    /* position: relative; */
+    top: 30px;
+    left: 0;
+}
+
+.rolling ul {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.rolling ul li a {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 10px;
+}
+
+.rolling ul li a:hover {
+    color: #00a4ff;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.goods {
+    /* height: 595px; */
+    margin-top: 30px;
+}
+
+.goods .title {
+    overflow: hidden;
+    /* height: 30px; */
+}
+
+.goods .title h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.goods .title a {
+    float: right;
+    padding-top: 9px;
+    font-size: 12px;
+    color: #a5a5a5;
+    padding-right: 25px;
+}
+
+.goods .classes {
+    width: 1225px;
+    /* height: 545px; */
+    margin-top: 10px;
+}
+
+.goods .classes li {
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.goods .classes .sign {
+    position: absolute;
+    top: 4px;
+    right: -12px;
+}
+
+.goods .classes ul li h3 {
+    margin: 20px 20px 10px 20px;
+    color: #050505;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.goods .classes ul li span {
+    margin-left: 20px;
+    color: #ff7c2d;
+    font-size: 12px;
+}
+
+.goods .classes ul li em {
+    margin: 0 8px 0;
+    color: #606060;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.goods .classes ul li strong {
+    color: #606060;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.goods .classes ul li:hover {
+    box-shadow: rgba(0, 0, 0, .3) 0px 2px 3px 1px;
+}
+
+.footer {
+    height: 415px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.footer .download {
+    float: left;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.footer .download p {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer .download .app {
+    display: block;
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+    color: #00a4ff;
+    text-align: center;
+    line-height: 36px;
+    border: #00a4ff 2px solid;
+}
+
+.footer .about {
+    float: right;
+    margin-top: 32px;
+    margin-right: 25px;
+}
+
+.footer .about dl {
+    float: right;
+    margin-left: 135px;
+}
+
+.footer .about dl a {
+    color: #333;
+}
+
+.footer .about dl a:hover {
+    color: #00a4ff;
+    text-decoration: underline;
+}
+
+.footer .about dl dt {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer .about dl dd {
+    font-size: 12px;
+}
+
+.goods .title ul {
+    float: left;
+    margin-left: 285px;
+}
+
+.goods .title ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.goods .title ul li a {
+    font-size: 16px;
+    color: #868686;
+}
+
+.goods .title ul li a:hover {
+    color: #00a4ff;
+    font-weight: 700;
+}
+
+.goods .display1 {
+    float: left;
+    margin-right: 10px;
+
+}
+
+.goods .display2 {
+    float: left;
+
+}
+
+.goods .classes .change li {
+    margin-top: 16px;
+}
