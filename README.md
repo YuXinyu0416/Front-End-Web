@@ -4,16 +4,6 @@ This is a basic front-end web project demonstrating foundational skills in HTML 
 
 ---
 
-## 📁 Project Structure
-
-Front-End-Web/
-├── index.html         # Main HTML file
-├── style.css          # Styling with CSS
-├── images/            # Image assets
-└── README.md          # Project description
-
----
-
 ## 🚀 Getting Started
 
 To view the webpage locally:
